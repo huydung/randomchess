@@ -9,9 +9,9 @@ playstore_link                            : https://play.google.com/store/apps/d
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Random Chess - Fun Learning                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Generate fully randomized Chess board and play with friends anytime, anywhere.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -25,7 +25,7 @@ your_city                                 : Hanoi
 email_address                             : contact@thinkinhd.com
 facebook_username                         : huydung1406                                          
 instagram_username                        : 
-twitter_username                          : huydung
+twitter_username                          : 
 github_username                           : huydung
 youtube_username                          : UC4-2wFF3rIe3nmbNViJqCyw
 
@@ -34,16 +34,16 @@ youtube_username                          : UC4-2wFF3rIe3nmbNViJqCyw
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Generate Fully Randomized Board
-    description                           : This is the mode for maximum fun and slightly "unfair". The mode that small kids loves the most! All the pieces are randomized and pawns can be placed on either the first or second rows! The only two rules are (1) King must not be exposed on the front-line and (2) Bishops must be in squares of opposite colors. Black and White starts with totally different different positions most of the time. 
+  - title                                 : Fully Randomized Board
+    description                           : <strong>Maximum fun and slightly "unfair" - The mode that small kids LOVE!</strong> <br/><br/>All the pieces are randomized and pawns can be placed on either the first or second rows! The only two rules are (1) King must not be exposed on the front-line and (2) Bishops must be in squares of opposite colors. Black and White starts with totally different different positions most of the time. 
     fontawesome_icon_name                 : random
     
-  - title                                 : Generate Chess960 board
-    description                           : The recommended method for serious players who want to strengthen their skills in a fun and fair way, recognized by FIDE! In this mode, all the pawns are in standard positions, the other pieces are randomized on the usual row with respect to three rules (1) King must be in between the two rooks, (2) Bishops must be in squares of opposite colors, and (3) Black pieces are mirrored from White pieces. 
+  - title                                 : Chess960 board
+    description                           : <strong>Recognized by FIDE, the fun cnad challenging mode for serious players!</strong><br/><br/> In this mode, all the pawns are in standard positions, the other pieces are randomized on the usual row with respect to three rules (1) King must be in between the two rooks, (2) Bishops must be in squares of opposite colors, and (3) Black pieces are mirrored from White pieces. 
     fontawesome_icon_name                 : sort
 
-  - title                                 : Optimized for two players
-    description                           : The app is specifically optimized for two players games with kids, therefore, There are unlimited Undo, you can either Drag-and-Drop or Click-and-Click to make a move, there are extremely clear indicator and animation of whose turn is this and which piece is chosen for a move, and hidden surprises. Play a game to see it for yourself.
+  - title                                 : 2-players play on device
+    description                           : <strong>Specifically optimized game play for two players directly on the device</strong>.<br/><br/>There are unlimited Undo, you can either Drag-and-Drop or Click-and-Click to make a move, there are extremely clear indicator and animations of whose turn is this and which piece is chosen for a move, plus hidden surprises. Play a game to see it for yourself.
     fontawesome_icon_name                 : user-friends  
 
 
@@ -54,27 +54,27 @@ topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_overlay_color                       : "#0b0b0b"
+cover_overlay_transparency                : 0.6
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : coral                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#53000b"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color                       : "#be012a"
+feature_text_color                        : "#333333"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#ffffff"
+feature_icons_background_color            : "#53000b"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#ffffff"
+social_icons_background_color             : "#53000b"
 
 footer_text_color                         : "#666666"
 

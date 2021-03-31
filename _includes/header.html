@@ -1,4 +1,6 @@
+
 <header>
+
 	<div class="logo">
 		<div class="appIconShadow">
 			<svg width="0" height="0">
@@ -15,7 +17,11 @@
 			{% endif %}
 			<div class="divider"></div>
 		</div>
-		<p class="headerName">{{ site.app_name }}</p>
+		{% if page.url != '/' %}
+			<p class="headerName"><a href="../" target="_self">{{ site.app_name }}</a></p>
+		{% else %}
+			<p class="headerName">{{ site.app_name }}</p>
+		{% endif %}
 	</div>
 	<nav class="scroll">
 		<ul>
@@ -29,4 +35,5 @@
 			{% endif %}
 		</ul>
 	</nav>
+
 </header>
