@@ -50,11 +50,14 @@
                                 {{ site.app_description }}
                             </p>
                         </div>
-                        <div class="downloadButtonsContainer">
+                        <div class="downloadButtonsContainer">                            
+                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
                             {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% if site.webstore_link %}
+                                <a class="webStoreLink" href="{{site.webstore_link}}"><img class="webStore" src="assets/webstore.png"></a>
+                            {% endif %}
                         </div>
                     </div>
                     {% include features.html %}

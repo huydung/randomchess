@@ -347,14 +347,14 @@ nav > ul li a:active {
 	
 } 
 
-.playStore {
+.playStore, .webStore {
 	height: 75px;
 	margin-right: 24px;
 }
 
 @media only screen and (max-width: 992px) {
 
-	.playStore {
+	.playStore, .webStore {
 		margin-right: 24px;
 		margin-bottom: 0px;
 	}
@@ -363,7 +363,7 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 528px) {
 
-	.playStore {
+	.playStore, .webStore {
 		margin-right: 0px;
 		margin-bottom: 24px;
 	}
